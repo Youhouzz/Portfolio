@@ -174,7 +174,7 @@ span{
     position: relative;
 }
 .typing-text span::before{
-    content: "software Developer";
+    content: "Developpeur";
     color: #b74b4b;
     animation: words 20s infinite;
 }
@@ -323,8 +323,9 @@ section .button button:hover{
     justify-content: space-between;
     align-items: center;
 }
-.skills-details .text{
-    width: 50%;
+.skills-details .text {
+    flex: 1;
+    max-width: 50%;
 }
 .skills-details p{
     text-align: justify;
